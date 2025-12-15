@@ -1,5 +1,5 @@
 import React from 'react';
-import { GROUP_NAME } from '../constants';
+import { GROUP_NAME, GROUP_DESCRIPTION } from '../constants';
 
 export const Footer: React.FC = () => {
   return (
@@ -9,24 +9,24 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">{GROUP_NAME}</h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Advancing the frontier of intelligent systems through interdisciplinary research and collaboration.
+              {GROUP_DESCRIPTION}
             </p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <p className="text-slate-400 text-sm">
-              Computer Science Building, Room 404<br />
+              {/* Computer Science Building, Room 404<br />
               123 University Ave<br />
-              Cambridge, MA 02139
+              Cambridge, MA 02139 */}
             </p>
-            <p className="text-slate-400 text-sm mt-2">contact@novalab.edu</p>
+            <p className="text-slate-400 text-sm mt-2">contact@chembot.cn</p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2 text-sm text-slate-400">
-              <li><a href="#" className="hover:text-white transition-colors">Internal Wiki</a></li>
+              {/* <li><a href="#" className="hover:text-white transition-colors">Internal Wiki</a></li>
               <li><a href="#" className="hover:text-white transition-colors">GitHub Organization</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">University Home</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">University Home</a></li> */}
             </ul>
           </div>
         </div>

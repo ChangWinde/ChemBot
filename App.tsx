@@ -10,36 +10,36 @@ import { ArrowRight, Mail, Download, ExternalLink, Search, ChevronRight, ArrowUp
 const Home: React.FC<{ setView: (v: string) => void }> = ({ setView }) => (
   <div className="bg-white">
     {/* Apple-style Hero: Clean, Centered, Big Type */}
-    <div className="relative min-h-[85vh] flex flex-col items-center justify-center overflow-hidden pt-20">
-      
-      {/* Subtle background gradient mesh */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[1000px] bg-gradient-to-tr from-blue-50 to-indigo-50 rounded-full blur-3xl opacity-60 pointer-events-none" />
-      
-      <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
-        <h1 className="text-6xl md:text-8xl font-semibold tracking-tighter text-slate-900 mb-6 leading-[1.05]">
-          Intelligence, <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Reimagined.</span>
-        </h1>
-        <p className="text-xl md:text-2xl text-slate-500 max-w-2xl mx-auto font-medium leading-relaxed mb-10">
-          {GROUP_DESCRIPTION}
-        </p>
+      <div className="relative min-h-[85vh] flex flex-col items-center justify-center overflow-hidden pt-20">
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <button 
-            onClick={() => setView('projects')} 
-            className="min-w-[160px] px-8 py-4 rounded-full bg-blue-600 text-white font-medium text-[17px] hover:bg-blue-700 transition-all shadow-lg shadow-blue-600/20"
-          >
-            Explore Projects
-          </button>
-          <button 
-            onClick={() => setView('publications')} 
-            className="min-w-[160px] px-8 py-4 rounded-full bg-slate-50 text-blue-600 font-medium text-[17px] hover:bg-slate-100 transition-all"
-          >
-            Latest Research
-          </button>
+        {/* Subtle background gradient mesh */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[1000px] bg-gradient-to-tr from-blue-50 to-indigo-50 rounded-full blur-3xl opacity-60 pointer-events-none" />
+        
+        <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
+          <h1 className="text-6xl md:text-8xl font-semibold tracking-tighter text-slate-900 mb-6 leading-[1.05]">
+            Building the <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Autonomous AI Chemist</span>
+          </h1>
+          <p className="text-xl md:text-2xl text-slate-500 max-w-2xl mx-auto font-medium leading-relaxed mb-10">
+            Pioneering autonomous laboratory robots that combine chemical intelligence with dexterous manipulation to accelerate the frontiers of basic research.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <button 
+              onClick={() => setView('projects')} 
+              className="min-w-[160px] px-8 py-4 rounded-full bg-blue-600 text-white font-medium text-[17px] hover:bg-blue-700 transition-all shadow-lg shadow-blue-600/20"
+            >
+              Explore Projects
+            </button>
+            <button 
+              onClick={() => setView('publications')} 
+              className="min-w-[160px] px-8 py-4 rounded-full bg-slate-50 text-blue-600 font-medium text-[17px] hover:bg-slate-100 transition-all"
+            >
+              Latest Research
+            </button>
+          </div>
         </div>
       </div>
-    </div>
 
     {/* Bento Grid Layout for Highlights */}
     <div className="max-w-7xl mx-auto px-6 pb-32">

@@ -17,11 +17,11 @@ const Home: React.FC<{ setView: (v: string) => void }> = ({ setView }) => (
       
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
         <h1 className="text-6xl md:text-8xl font-semibold tracking-tighter text-slate-900 mb-6 leading-[1.05]">
-          Intelligence, <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Reimagined.</span>
+          Building the <br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Autonomous AI Chemist.</span>
         </h1>
         <p className="text-xl md:text-2xl text-slate-500 max-w-2xl mx-auto font-medium leading-relaxed mb-10">
-          {GROUP_DESCRIPTION}
+          Pioneering autonomous laboratory robots that combine chemical intelligence with dexterous manipulation to accelerate the frontiers of basic research.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

@@ -3,6 +3,7 @@ export enum MemberRole {
   POSTDOC = "Postdoctoral Researcher",
   PHD = "PhD Student",
   ALUMNI = "Alumni",
+  INTERN = "Intern",
   UNDERGRAD = "Undergraduate Researcher"
 }
 
@@ -12,7 +13,7 @@ export interface Member {
   role: MemberRole;
   image: string;
   bio: string;
-  email: string;
+  email?: string;
   website?: string;
   twitter?: string;
   googleScholar?: string;

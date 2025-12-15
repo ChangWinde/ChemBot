@@ -26,40 +26,115 @@ export const RESEARCH_AREAS: ResearchArea[] = [
 
 export const MEMBERS: Member[] = [
   {
-    id: 'pi-1',
-    name: 'Dr. Elena Vance',
+    id: 'teacher-1',
+    name: 'Dr. Ying Wen',
     role: MemberRole.PI,
-    image: 'https://picsum.photos/seed/elena/400/400',
-    bio: 'Associate Professor of Computer Science. Ph.D. from MIT. Focuses on human-centered AI systems.',
-    email: 'elena.vance@example.edu',
-    website: 'https://example.com',
-    googleScholar: '#'
+    image: 'https://yingwen.io/author/ying-wen/avatar_hude959322692e67e9b74e6796722f3509_66818_270x270_fill_q90_lanczos_center.jpg',
+    bio: 'Associate Professor in School of Artificial Intelligence and John Hopcroft Center, Shanghai Jiao Tong University. ',
+    email: '',
+    website: 'https://yingwen.io/',
+    googleScholar: 'https://scholar.google.com/citations?user=_A1CxG8AAAAJ'
   },
   {
-    id: 'pd-1',
-    name: 'Dr. James Chen',
-    role: MemberRole.POSTDOC,
-    image: 'https://picsum.photos/seed/james/400/400',
-    bio: 'Working on multimodal interaction and accessible computing interfaces.',
-    email: 'j.chen@example.edu',
-    twitter: '#'
+    id: 'teacher-2',
+    name: 'Dr. Junchi Yan',
+    role: MemberRole.PI,
+    image: 'https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=ga230VoAAAAJ&citpid=24',
+    bio: 'Professor and Associate Dean at the School of Artificial Intelligence, Professor and Associate Dean at the School of Artificial Intelligence.',
+    email: '',
+    website: 'https://thinklab.sjtu.edu.cn/',
+    googleScholar: 'https://scholar.google.com/citations?user=ga230VoAAAAJ&hl=en'
   },
   {
-    id: 'phd-1',
-    name: 'Sarah Miller',
+    id: 'teacher-3',
+    name: 'Dr. Yaodong Yang',
+    role: MemberRole.PI,
+    image: 'https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=6yL0xw8AAAAJ&citpid=41',
+    bio: 'Assistant Professor at the Institute for Artificial Intelligence, Peking University, Director of the AI Safety Centre at BAAI, and Chief Scientist of the PKU–PsiBot Joint Laboratory.',
+    email: '',
+    website: 'https://www.yangyaodong.com/',
+    googleScholar: 'https://scholar.google.com/citations?user=6yL0xw8AAAAJ&hl=en'
+  },
+  {
+    id: 'student-1',
+    name: 'Fengshuo Bai',
     role: MemberRole.PHD,
-    image: 'https://picsum.photos/seed/sarah/400/400',
-    bio: 'Researching interpretability in reinforcement learning agents.',
-    email: 's.miller@example.edu'
+    image: 'https://changwinde.github.io/asserts/bio.jpg',
+    bio: 'Ph.D. Student at Department of Computer Science and Engineering, Shanghai Jiao Tong University as well as a member of PAIR-Lab, co-advised by Dr. Yaodong Yang and Dr. Ying Wen.',
+    email: 'fengshuobai@sjtu.edu.cn',
+    website: 'https://changwinde.github.io/',
+    googleScholar: 'https://scholar.google.com/citations?user=rzt0quQAAAAJ'
   },
   {
-    id: 'phd-2',
-    name: 'David Okafor',
+    id: 'student-2',
+    name: 'Jing Gao',
     role: MemberRole.PHD,
-    image: 'https://picsum.photos/seed/david/400/400',
-    bio: 'Focusing on generative models for scientific discovery.',
-    email: 'd.okafor@example.edu'
-  }
+    image: 'https://avatars.githubusercontent.com/u/18435084?v=4',
+    bio: 'Ph.D. Student at Department of Integrated Circuits, Shanghai Jiao Tong University',
+    email: 'jinggao@sjtu.edu.cn',
+    website: 'https://github.com/Xuwznln',
+    googleScholar: ''
+  },
+  {
+    id: 'student-3',
+    name: 'Mingwei Li',
+    role: MemberRole.PHD,
+    image: 'https://avatars.githubusercontent.com/u/68198130?s=400&u=6a9b87af1d8b6a5686fe1af7451d13c7cb0f4d13&v=4',
+    bio: 'Ph.D. student at Zhejiang University, whose research interest lies in 3D/4D Reconstruction and generative models.',
+    email: 'mingweili@zju.edu.cn',
+    website: 'https://github.com/longxiang-ai',
+    googleScholar: 'https://scholar.google.com/citations?user=EQMVZh4AAAAJ&hl=zh-CN'
+  },
+  {
+    id: 'student-4',
+    name: 'Yufeng Li',
+    role: MemberRole.PHD,
+    image: '',
+    bio: 'Yufeng Li is currently a Ph.D. candidate in the Department of Computer Science and Engineering at Shanghai Jiao Tong University, under the supervision of Prof. Junchi Yan. His research interests include graph machine learning, embodied intelligence, and optimal transport theory.',
+    email: 'liyufeng854@gmail.com',
+    website: 'https://scholar.google.com/citations?user=c7KN8nsAAAAJ&hl=zh-CN',
+    googleScholar: 'https://scholar.google.com/citations?user=c7KN8nsAAAAJ&hl=zh-CN'
+  },
+  {
+    id: 'student-5',
+    name: 'Peishuo Wang',
+    role: MemberRole.PHD,
+    image: 'https://avatars.githubusercontent.com/u/83170785?v=4',
+    bio: 'PhD student working on Vision-Language-Action(VLA) models, with a focus on long-horizon task execution in embodied settings, particularly for chemical laboratory automation.',
+    email: 's-wps24@bjzgca.edu.cn',
+    website: 'https://github.com/WPS852',
+    googleScholar: ''
+  },
+  {
+    id: 'student-6',
+    name: 'Yunhong Lou',
+    role: MemberRole.PHD,
+    image: '',
+    bio: '',
+    email: '',
+    website: '',
+    googleScholar: ''
+  },
+  {
+    id: 'student-7',
+    name: 'Pu Pang',
+    role: MemberRole.PHD,
+    image: '',
+    bio: '',
+    email: '',
+    website: '',
+    googleScholar: ''
+  },
+  {
+    id: 'intern-1',
+    name: 'Dawei Zhou',
+    role: MemberRole.INTERN,
+    image: '',
+    bio: '',
+    email: '',
+    website: '',
+    googleScholar: ''
+  },
 ];
 
 export const PUBLICATIONS: Publication[] = [

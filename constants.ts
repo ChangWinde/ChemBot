@@ -92,7 +92,17 @@ export const PUBLICATIONS: Publication[] = [
     abstract: 'Reconstructing transparent surfaces is essential for tasks such as robotic manipulation in labs, yet it poses a significant challenge for 3D reconstruction techniques like 3D Gaussian Splatting (3DGS). These methods often encounter a transparency-depth dilemma, where the pursuit of photorealistic rendering through standard α-blending undermines geometric precision, resulting in considerable depth estimation errors for transparent materials. To address this issue, we introduce Transparent Surface Gaussian Splatting (TSGS), a new framework that separates geometry learning from appearance refinement. In the geometry learning stage, TSGS focuses on geometry by using specular-suppressed inputs to accurately represent surfaces. In the second stage, TSGS improves visual fidelity through anisotropic specular modeling, crucially maintaining the established opacity to ensure geometric accuracy. To enhance depth inference, TSGS employs a first-surface depth extraction method. This technique uses a sliding window over α-blending weights to pinpoint the most likely surface location and calculates a robust weighted average depth. To evaluate the transparent surface reconstruction task under realistic conditions, we collect a TransLab dataset that includes complex transparent laboratory glassware. Extensive experiments on TransLab show that TSGS achieves accurate geometric reconstruction and realistic rendering of transparent objects simultaneously within the efficient 3DGS framework. Specifically, TSGS significantly surpasses current leading methods, achieving a 37.3% reduction in chamfer distance and an 8.0% improvement in F1 score compared to the top baseline. The code and dataset are available at https://longxiang-ai.github.io/TSGS/',
     tags: ['Transparent Surface Reconstruction', 'Normal and De-lighting Priors', 'Gaussian Splatting'],
     pdfUrl: '#'
-  }
+  },
+  {
+    id: 'p4',
+    title: 'DreamRenderer: Taming Multi-Instance Attribute Control in Large-Scale Text-to-Image Models',
+    authors: ["Dewei Zhou", "Mingwei Li", "Zongxin Yang", "Yi Yang"],
+    venue: 'ICCV 2025',
+    year: 2025,
+    abstract: 'Image-conditioned generation methods, such as depth- and canny-conditioned approaches, have demonstrated remarkable abilities for precise image synthesis. However, existing models still struggle to accurately control the content of multiple instances (or regions). Even state-of-the-art models like FLUX and 3DIS face challenges, such as attribute leakage between instances, which limits user control. To address these issues, we introduce DreamRenderer, a training-free approach built upon the FLUX model. DreamRenderer enables users to control the content of each instance via bounding boxes or masks, while ensuring overall visual harmony. We propose two key innovations: 1) Bridge Image Tokens for Hard Text Attribute Binding, which uses replicated image tokens as bridge tokens to ensure that T5 text embeddings, pre-trained solely on text data, bind the correct visual attributes for each instance during Joint Attention; 2) Hard Image Attribute Binding applied only to vital layers. Through our analysis of FLUX, we identify the critical layers responsible for instance attribute rendering and apply Hard Image Attribute Binding only in these layers, using soft binding in the others. This approach ensures precise control while preserving image quality. Evaluations on the COCO-POS and COCO-MIG benchmarks demonstrate that DreamRenderer improves the Image Success Ratio by 17.7% over FLUX and enhances the performance of layout-to-image models like GLIGEN and 3DIS by up to 26.8%.',
+    tags: ['Text-to-Image', 'Instance Control', 'Attribute Binding'],
+    pdfUrl: '#'
+  },
 ];
 
 export const NEWS: NewsItem[] = [
@@ -108,6 +118,13 @@ export const NEWS: NewsItem[] = [
     date: '2025-09',
     title: 'STAR heads to NeurIPS 2025',
     content: 'Fengshuo Bai, Rui Zhao, Hongming Zhang, Sijia Cui, Ying Wen, Yaodong Yang, Bo Xu, and Lei Han have their paper “STAR: Efficient Preference-based Reinforcement Learning via Dual Regularization” accepted to NeurIPS 2025.',
+    category: 'Publication'
+  },
+  {
+    id: 'n-p4',
+    date: '2025-07',
+    title: 'DreamRenderer accepted to ICCV 2025',
+    content: 'Dewei Zhou, Mingwei Li, Zongxin Yang, and Yi Yang have “DreamRenderer: Taming Multi-Instance Attribute Control in Large-Scale Text-to-Image Models” accepted to ICCV 2025.',
     category: 'Publication'
   },
   {

@@ -97,24 +97,24 @@ export const PUBLICATIONS: Publication[] = [
 
 export const NEWS: NewsItem[] = [
   {
-    id: 'n1',
-    date: '2024-05-15',
-    title: 'Paper Accepted to CHI 2024',
-    content: 'Sarah and James had their paper on Trust in Automation accepted to CHI 2024! Congratulations!',
+    id: 'n-p1',
+    date: '2025-09',
+    title: 'DexFlyWheel accepted to NeurIPS 2025',
+    content: 'Kefei Zhu, Fengshuo Bai, YuanHao Xiang, Yishuai Cai, Xinglin Chen, Ruochong Li, Xingtao Wang, Hao Dong, Yaodong Yang, Xiaopeng Fan, and Yuanpei Chen will present “DexFlyWheel: A Scalable and Self-improving Data Generation Framework for Dexterous Manipulation” at NeurIPS 2025.',
     category: 'Publication'
   },
   {
-    id: 'n2',
-    date: '2024-04-01',
-    title: 'Dr. Vance Receives NSF CAREER Award',
-    content: 'We are thrilled to announce that Dr. Elena Vance has received the prestigious NSF CAREER award to support her work on Explainable AI.',
-    category: 'Award'
+    id: 'n-p2',
+    date: '2025-09',
+    title: 'STAR heads to NeurIPS 2025',
+    content: 'Fengshuo Bai, Rui Zhao, Hongming Zhang, Sijia Cui, Ying Wen, Yaodong Yang, Bo Xu, and Lei Han have their paper “STAR: Efficient Preference-based Reinforcement Learning via Dual Regularization” accepted to NeurIPS 2025.',
+    category: 'Publication'
   },
   {
-    id: 'n3',
-    date: '2023-11-10',
-    title: 'New PhD Students Join the Lab',
-    content: 'Welcome to our new PhD cohort! We are excited to have you on board.',
-    category: 'General'
+    id: 'n-p3',
+    date: '2025-04',
+    title: 'TSGS to appear at ACM MM 2025',
+    content: 'Mingwei Li, Pu Pang, Hehe Fan, Hua Huang, and Yi Yang will present “TSGS: Improving Gaussian Splatting for Transparent Surface Reconstruction via Normal and De-lighting Priors” at ACM MM 2025.',
+    category: 'Publication'
   }
 ];

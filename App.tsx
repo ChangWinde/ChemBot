@@ -495,7 +495,7 @@ function App() {
       case 'publications': return <Publications />;
       case 'news': return <News />;
       case 'projects': return <Projects />;
-      case 'contact': return <Contact />;
+      // case 'contact': return <Contact />;
       default: return <Home setView={setCurrentView} />;
     }
   };

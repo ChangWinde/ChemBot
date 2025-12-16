@@ -24,7 +24,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, setView }) => {
     { id: 'publications', label: 'Publications' },
     { id: 'news', label: 'News' },
     { id: 'projects', label: 'Project' },
-    { id: 'contact', label: 'Contact' },
+    // { id: 'contact', label: 'Contact' },
   ];
 
   const handleNavClick = (id: string) => {

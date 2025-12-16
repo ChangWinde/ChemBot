@@ -90,7 +90,7 @@ export const MEMBERS: Member[] = [
     name: 'Yufeng Li',
     role: MemberRole.PHD,
     image: '/assets/images/bio_lyf.png',
-    bio: 'Yufeng Li is currently a Ph.D. candidate in the Department of Computer Science and Engineering at Shanghai Jiao Tong University, under the supervision of Prof. Junchi Yan. His research interests include graph machine learning, embodied intelligence, and optimal transport theory.',
+    bio: 'Ph.D. candidate at Shanghai Jiao Tong University, advised by Prof. Junchi Yan. Research interests include graph machine learning, embodied intelligence, and optimal transport theory.',
     email: 'liyufeng854@gmail.com',
     website: 'https://scholar.google.com/citations?user=c7KN8nsAAAAJ&hl=zh-CN',
     googleScholar: 'https://scholar.google.com/citations?user=c7KN8nsAAAAJ&hl=zh-CN'
@@ -149,11 +149,11 @@ export const MEMBERS: Member[] = [
     id: 'intern-2',
     name: 'Xinrui Gou',
     role: MemberRole.INTERN,
-    image: '',
-    bio: '',
-    email: '',
-    website: '',
-    googleScholar: ''
+    image: '/assets/images/bio_gxr.jpg',
+    bio: 'Ph.D. student in Artificial Intelligence at Beihang University. She holds a Master\'s in Mechanical Engineering from Hong Kong Polytechnic University and a Bachelor\'s in Metal Materials.',
+    email: 'xinruiguo@buaa.edu.cn',
+    website: 'https://scholar.google.com/citations?hl=zh-CN&user=mLsDERgAAAAJ',
+    googleScholar: 'https://scholar.google.com/citations?hl=zh-CN&user=mLsDERgAAAAJ'
   },
 ];
 

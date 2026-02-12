@@ -16,6 +16,12 @@ export const RESEARCH_AREAS: ResearchArea[] = [
     description: 'A two-stage 3D Gaussian Splatting framework for multi-view transparent surface reconstruction: the first stage leverages priors such as specular removal and illumination disentanglement to focus exclusively on geometry learning, followed by an appearance refinement stage with fixed opacities to simultaneously achieve more accurate geometry and photorealistic rendering.',
     imageUrl: 'https://longxiang-ai.github.io/TSGS/static/images/teaser_02_00.jpg'
   },
+  {
+    id: '3',
+    title: 'Uni-Lab-OS: A Unified Operating System for Automated Laboratory Workflows',
+    description: 'Uni-Lab-OS is a comprehensive platform for laboratory automation that orchestrates heterogeneous experimental instruments through a unified interface, enabling standardized and reproducible execution of complex experimental workflows.',
+    imageUrl: 'https://github.com/deepmodeling/Uni-Lab-OS/raw/main/docs/logo.png'
+  },
 ];
 
 export const MEMBERS: Member[] = [

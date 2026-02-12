@@ -52,6 +52,7 @@ const Home: React.FC<{ setView: (v: string) => void }> = ({ setView }) => (
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[400px]">
         {/* Large Featured Card */}
+        {RESEARCH_AREAS[0] && (
         <div 
           onClick={() => setView('projects')}
           className="lg:col-span-2 group relative overflow-hidden rounded-[32px] bg-slate-50 cursor-pointer transition-transform duration-500 hover:scale-[1.01]"
@@ -68,8 +69,10 @@ const Home: React.FC<{ setView: (v: string) => void }> = ({ setView }) => (
             <p className="text-lg text-white/90 max-w-lg leading-relaxed">{RESEARCH_AREAS[0].description}</p>
           </div>
         </div>
+        )}
 
         {/* Secondary Vertical Card */}
+        {RESEARCH_AREAS[1] && (
         <div 
            onClick={() => setView('projects')}
            className="group relative overflow-hidden rounded-[32px] bg-white border border-slate-100 cursor-pointer hover:shadow-2xl transition-all duration-500"
@@ -87,8 +90,10 @@ const Home: React.FC<{ setView: (v: string) => void }> = ({ setView }) => (
              </div>
            </div>
         </div>
+        )}
 
-         {/* Third Card */}
+         {/* Third Card - only render if exists */}
+         {RESEARCH_AREAS[2] && (
          <div 
            onClick={() => setView('projects')}
            className="md:col-span-2 lg:col-span-3 group relative overflow-hidden rounded-[32px] bg-slate-50 cursor-pointer flex flex-col md:flex-row items-center border border-slate-100 hover:shadow-2xl transition-all duration-500"
@@ -97,13 +102,14 @@ const Home: React.FC<{ setView: (v: string) => void }> = ({ setView }) => (
              <h3 className="text-3xl font-semibold text-slate-900 mb-4">{RESEARCH_AREAS[2].title}</h3>
              <p className="text-slate-500 text-lg leading-relaxed mb-8">{RESEARCH_AREAS[2].description}</p>
              <span className="text-blue-600 font-medium flex items-center group-hover:gap-2 transition-all">
-                Explore XAI Research <ArrowRight className="ml-2 h-4 w-4" />
+                Explore Research <ArrowRight className="ml-2 h-4 w-4" />
              </span>
            </div>
            <div className="w-full md:w-1/2 h-[300px] md:h-full order-1 md:order-2 overflow-hidden">
              <img src={RESEARCH_AREAS[2].imageUrl} alt={RESEARCH_AREAS[2].title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
            </div>
         </div>
+         )}
       </div>
     </div>
   </div>

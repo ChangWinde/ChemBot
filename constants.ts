@@ -6,22 +6,16 @@ export const GROUP_DESCRIPTION = "Pioneering autonomous laboratory robots that c
 export const RESEARCH_AREAS: ResearchArea[] = [
   {
     id: '1',
-    title: 'Efficient Preference-based Reinforcement Learning',
-    description: 'Investigating how large language models can act as collaborative partners in creative domains like writing, coding, and design.',
-    imageUrl: 'https://picsum.photos/seed/ai/600/400'
+    title: 'SafeLab: An Interactive High-Fidelity Benchmark for Embodied Safety in Scientific Robotics',
+    description: 'SafeLab is a generative simulation benchmark for safe robot learning in laboratory automation. Unlike conventional robotic domains, lab environments demand zero-tolerance precision where minor deviations cause irreversible chemical hazards. Current Vision-Language-Action (VLA) models, trained via static imitation learning, fail catastrophically in these settings due to their inability to recover from execution drift.',
+    imageUrl: '/images/pj_safelab.png'
   },
   {
     id: '2',
-    title: 'Human-Robot Interaction',
-    description: 'Developing social robots that can interpret non-verbal cues and adapt their behavior to specific social contexts.',
-    imageUrl: 'https://picsum.photos/seed/robot/600/400'
+    title: 'Transparent Surface Gaussian Splatting',
+    description: 'A two-stage 3D Gaussian Splatting framework for multi-view transparent surface reconstruction: the first stage leverages priors such as specular removal and illumination disentanglement to focus exclusively on geometry learning, followed by an appearance refinement stage with fixed opacities to simultaneously achieve more accurate geometry and photorealistic rendering.',
+    imageUrl: 'https://longxiang-ai.github.io/TSGS/static/images/teaser_02_00.jpg'
   },
-  {
-    id: '3',
-    title: 'Explainable AI (XAI)',
-    description: 'Creating visualization techniques and interface paradigms that make complex deep learning models transparent and trustworthy.',
-    imageUrl: 'https://picsum.photos/seed/xai/600/400'
-  }
 ];
 
 export const MEMBERS: Member[] = [
@@ -136,9 +130,9 @@ export const MEMBERS: Member[] = [
     googleScholar: 'https://scholar.google.com/citations?hl=zh-CN&user=_P4xQLIAAAAJ'
   },
   {
-    id: 'intern-1',
+    id: 'student-9',
     name: 'Tawei Chou',
-    role: MemberRole.INTERN,
+    role: MemberRole.PHD,
     image: '/images/bio_zdw.jpg',
     bio: 'Ph.D student at the School of Intelligence Science and Technology, Peking University. His research focuses on the autonomous intelligence, resilience of unmanned systems, and Embodied Intelligence.',
     email: 'zhoudw18@tsinghua.org.cn',
@@ -146,9 +140,9 @@ export const MEMBERS: Member[] = [
     googleScholar: 'https://scholar.google.com/citations?view_op=list_works&hl=zh-TW&user=eZqHVV0AAAAJ'
   },
   {
-    id: 'intern-2',
+    id: 'student-10',
     name: 'Xinrui Gou',
-    role: MemberRole.INTERN,
+    role: MemberRole.PHD,
     image: '/images/bio_gxr.jpg',
     bio: 'Ph.D. student in Artificial Intelligence at Beihang University. She holds a Master\'s in Mechanical Engineering from Hong Kong Polytechnic University and a Bachelor\'s in Metal Materials.',
     email: 'xinruiguo@buaa.edu.cn',
